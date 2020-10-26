@@ -1,0 +1,40 @@
+{
+  "audio": [
+    "audio/mpeg",
+    "audio/m4a",
+    "audio/x-mpeg-3",
+    "audio/mp3"
+  ],
+  "image": [
+    "image/jpeg",
+    "image/jpg",
+    "image/png",
+    "image/svg+xml",
+    "image/gif"
+  ],
+  "text_file": [
+    "application/pdf",
+    "image/jpeg",
+    "image/jpg",
+    "image/png",
+    "application/postscript",
+    "application/zip",
+    "application/vnd.rar",
+    "application/msword",
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "application/vnd.ms-excel",
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  ],
+  "video": [
+    "video/mp4",
+    "video/mpeg",
+    "video/x-msvideo",
+    "video/quicktime",
+    "video/x-ms-wmv",
+    "video/x-flv",
+    "video/x-m4v"
+  ],
+  "csv": [
+    "text/csv"
+  ]
+}
