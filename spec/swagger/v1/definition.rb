@@ -6,5 +6,8 @@ API_V1 = {
   },
   basePath: '/api/v1',
   definitions: {
+    entry: ENTRY_SCHEMA,
+    entries_collection: ENTRIES_COLLECTION_SCHEMA,
+    entry_resource: ENTRY_RESOURCE_SCHEMA,
   }
 }
