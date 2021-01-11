@@ -1,6 +1,10 @@
 class Api::V1::EntriesController < Api::V1::BaseController
   def index
-    respond_with Entry.all
+    if params[:search].present?
+      respond_with Entry.where('concept ILIKE ?', "%#{params[:search]}%")
+    else
+      respond_with Entry.all
+    end
   end
 
   def show
